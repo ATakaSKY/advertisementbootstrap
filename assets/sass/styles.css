@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin-top:30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.heading{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    border:1px solid darkred;
+    background: darkred;
+    color:#fff;
+    padding:20px;
+    font-size:1.4em;
+    border-radius:5px;
+    text-align:center;
+    letter-spacing: 2px;
+}
+
+.content{
+    margin-top:15px;
+}
+
+.course-description{
+    font-size:1.3em;
+    line-height:1.2em;
+    color:lightslategray
+}
+
+ul.list-description{
+    list-style:none;
+}
+
+ul.list-description li:first-of-type{
+    margin-top:10px;
+}
+
+ul.list-description li:last-of-type{
+    margin-bottom:20px;
+}
+
+ul.list-description li{
+    margin-bottom:3px;
+    padding:5px;
+    border:1px solid black;
+    border-radius: 20px;
+    padding-left:25px;
+}
+
+ul.list-description li:nth-of-type(even){
+    background: lightgoldenrodyellow;
+}
+
+ul.list-description li:nth-of-type(odd){
+    background:lightsteelblue
+}
+
+.learning .learning-description{
+    color:lightslategray
+}
+
+.img-wheel{
+    width:600px;
+    height:300px;
+    background: #e5e5e5;
+}
+
+.details{
+    border-top:3px solid blue;
+}
+
+.details .text-details{
+    color:darkblue;
+    font-size:1.3em;
+    font-style: italic;
+    margin-top:5px;
+}
+
+footer ul.footer-links{
+    display:flex;
+    list-style:none;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+footer ul.footer-links li{
+    width:100%;
+    padding:10px 0 10px 40px;
+}
+
+footer ul.footer-links li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+footer ul.footer-links li:nth-child(-n+3){
+    background: purple;
+}
+
+footer ul.footer-links li:nth-last-of-type(-n+2){
+    background:darkred
+}
+
+.fa{
+    padding-right: 5px;
+}
