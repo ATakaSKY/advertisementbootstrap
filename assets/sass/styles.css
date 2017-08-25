@@ -14,6 +14,7 @@ ul{
 body{
     margin-top:30px;
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 .heading{
@@ -71,12 +72,6 @@ ul.list-description li:nth-of-type(odd){
     color:lightslategray
 }
 
-.img-wheel{
-    width:600px;
-    height:300px;
-    background: #e5e5e5;
-}
-
 .details{
     border-top:3px solid blue;
 }
@@ -115,4 +110,45 @@ footer ul.footer-links li:nth-last-of-type(-n+2){
 
 .fa{
     padding-right: 5px;
+}
+
+@media only screen and (max-width:886px){
+    footer ul.footer-links li{
+        padding: 5px 0 5px 30px;
+    }
+}
+
+@media only screen and (max-width:786px){
+    footer ul.footer-links li{
+        text-align: center;
+    }
+
+    footer ul.footer-links li span{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width:666px){
+
+    footer ul.footer-links li span{
+        display: none;
+    }
+
+    footer ul.footer-links li i{
+        font-size:1.5em;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .img-wheel img{
+        width:550px;
+    }
+}
+
+@media only screen and (max-width:660px){
+    .img-wheel img{
+        width:400px;
+    }
 }
